@@ -35,12 +35,11 @@ function loanEligiblity(customerName:string,creditScore:number,income:number,isE
                 console.log("You are eligible to avail a loan")
             }
         }else if(income>50000 && isEmployed==true && debtToIncomeRatio<40){
-        console.log("Your profile is under consideration")   
+                console.log("Your profile is under consideration")   
         }else{
             console.log("Sorry we cant proceed further")
         }
     } else{
            console.log("Sorry we cant proceed further")
-    
     }
 }
