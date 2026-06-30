@@ -1,5 +1,5 @@
 let studentNames:string[]=["Suresh","Mahesh","Naresh"]
-let studentsMarks:number[]=[85,90,92]
+let studentsMarks:number[]=[75,80,82]
 let updatedStudentsMarks:number[]=[];
 let updatedMarksAverage:number=0;
 
