@@ -1,4 +1,4 @@
- let inputNumber:number =25;
+ let inputNumber:number =13;
  let count:number =0;
    
 primeNumberCheck(inputNumber);
@@ -9,8 +9,8 @@ primeNumberCheck(inputNumber);
         }
     }
     if (count>2){
-        console.log(`${inputNumber} is a prime number`)
+        console.log(`${inputNumber} is a not a prime number`)
     }else {
-        console.log(`${inputNumber} is not a prime number`)
+        console.log(`${inputNumber} is a prime number`)
     }
  }
